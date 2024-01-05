@@ -1,0 +1,37 @@
+.top_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "one two three";
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.one{
+    grid-area: one;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    grid-area: two;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    grid-area: three;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    border: 0;
+    display: inline-block;
+}

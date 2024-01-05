@@ -1,0 +1,33 @@
+.admin_grid{
+    display: grid;
+    grid-template-areas: 
+    "name form";
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name{
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    grid-area: form;
+    display: grid;
+    grid-template-areas: 
+    "endre slett";
+    margin-bottom: -2px;
+}
+
+.endre{
+    grid-area: endre;
+}
+
+.slett{
+    grid-area: slett;
+}

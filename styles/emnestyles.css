@@ -1,0 +1,103 @@
+article {
+    margin: 5px;
+    display: grid;
+    grid-template-areas:
+    "text replybutton reportbutton"
+    ". . closeButton"
+    "inputform inputform inputform";
+    grid-template-columns: 4fr 130px 130px;
+    border-bottom: dotted 2px;
+}
+
+.inputForm {
+    grid-area: inputform;
+}
+
+.createNewButton {
+    width: 12rem;
+    height: 3rem;
+    padding: 0px;
+}
+
+.createNewLabel {
+    padding-top: 8%;
+}
+
+.replyButton {
+    grid-area: replybutton;
+    padding: 0px;
+}
+
+.showHideButton {
+    padding: 0px;
+}
+
+input[name="text"] {
+    width: 96%;
+}
+
+
+.hidden:checked + .inputForm {
+    display: block; !important;
+}
+.hidden:checked + form + .closeButton {
+    display: block; !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.primaryContent {
+    width: 100%;
+    height: 500px;
+}
+
+.closeButtonHidden {
+    display: none;
+}
+
+.closeButton {
+    display: none;
+    grid-area: closeButton;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    justify-self: right;
+}
+
+button > label {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding-top: 10%;
+}
+
+.reportButton {
+    grid-area: reportbutton;
+    padding: 0px;
+}
+
+.text {
+    width: 100%;
+}
+
+iframe {
+    border: 0;
+    display: inline-block;
+}
+
+iframe > html > body {
+    padding-left: 0px;
+}
+
+@media (prefers-color-scheme: dark) {
+p {
+    color: white;
+}
+}
+@media (prefers-color-scheme: light) {
+    p {
+        color: black;
+    }
+}

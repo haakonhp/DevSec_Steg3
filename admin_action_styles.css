@@ -1,0 +1,189 @@
+.endre_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "info_field tekst_article form_fields";
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.info_field{
+    grid-area: info_field;
+    display: grid;
+    grid-template-areas: 
+    "s_name"
+    "s_email" 
+    "s_semester" 
+    "s_study_field" 
+    "s_password";
+    font-weight: bold;
+}
+
+.tekst_article{
+    grid-area: tekst_article;
+    display: grid;
+    grid-template-areas: 
+    "name" 
+    "email" 
+    "semester" 
+    "study_field" 
+    "password";
+}
+
+.form_fields{
+    grid-area: form_fields;
+    display: grid;
+    grid-template-areas: 
+    "i_name c_name" 
+    "i_email c_email" 
+    "i_semester c_semester" 
+    "i_study_field c_study_field" 
+    "i_password c_password";
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -2px;
+}
+
+.s_name{
+    grid-area: s_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_email{
+    grid-area: s_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_semester{
+    grid-area: s_semester;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_study_field{
+    grid-area: s_study_field;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_password{
+    grid-area: s_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.name{
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    grid-area: email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.semester{
+    grid-area: semester;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.study_field{
+    grid-area: study_field;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password{
+    grid-area: password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_name{
+    grid-area: i_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_email{
+    grid-area: i_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_semester{
+    grid-area: i_semester;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_study_field{
+    grid-area: i_study_field;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_password{
+    grid-area: i_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_name{
+    grid-area: c_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_email{
+    grid-area: c_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_semester{
+    grid-area: c_semester;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_study_field{
+    grid-area: c_study_field;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_password{
+    grid-area: c_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

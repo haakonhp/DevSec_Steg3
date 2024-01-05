@@ -1,0 +1,157 @@
+.endre_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "info_field tekst_article form_fields";
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.info_field{
+    grid-area: info_field;
+    display: grid;
+    grid-template-areas: 
+    "s_name"
+    "s_email" 
+    "s_password"
+    "s_subjects";
+    font-weight: bold;
+}
+
+.tekst_article{
+    grid-area: tekst_article;
+    display: grid;
+    grid-template-areas: 
+    "name" 
+    "email" 
+    "password"
+    "subjects";
+}
+
+.form_fields{
+    grid-area: form_fields;
+    display: grid;
+    grid-template-areas: 
+    "i_name c_name" 
+    "i_email c_email" 
+    "i_password c_password"
+    "i_subjects c_subjects";
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -2px;
+}
+
+.s_name{
+    grid-area: s_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_email{
+    grid-area: s_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_password{
+    grid-area: s_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_subjects{
+    grid-area: s_subjects;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    grid-area: name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    grid-area: email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password{
+    grid-area: password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjects{
+    grid-area: subjects;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_name{
+    grid-area: i_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_email{
+    grid-area: i_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_password{
+    grid-area: i_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_subjects{
+    grid-area: i_subjects;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_name{
+    grid-area: c_name;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_email{
+    grid-area: c_email;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_password{
+    grid-area: c_password;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c_subjects{
+    grid-area: c_subjects;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
